@@ -1,0 +1,10 @@
+name: test-plasma-rpy2
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - r-base=4.3
+  - rpy2>=3.5.11
+  - r-irkernel
+  - plink=1.90b6.12
